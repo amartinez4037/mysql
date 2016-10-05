@@ -18,7 +18,8 @@
  * Configuration file that overrides settings made by phpMyAdmin setup utility
   * /etc/phpmyadmin/config.inc.php
   
-### [Naming Conventions](https://anandarajpandey.com/2015/05/10/mysql-naming-coding-conventions-tips-on-mysql-database/) ###
+### [SQL Naming Conventions](https://anandarajpandey.com/2015/05/10/mysql-naming-coding-conventions-tips-on-mysql-database/) ###
+ * [Check out](http://paul-m-jones.com/archives/6188) Joe Celko's [SQL Programming Style](https://www.amazon.com/Celkos-Programming-Kaufmann-Management-Systems/dp/0120887975/) - [style guide](www.sqlstyle.guide/)
  * General Rules
   * No abbreviations (unless necessary to fit size limits)
   * Use lowercase

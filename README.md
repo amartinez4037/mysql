@@ -2,10 +2,10 @@
 
 ## MySQLi vs PDO ##
  * Procedural Method - [MySQLi](http://markonphp.com/simple-select-mysqli-php/)
- * OOP Method - PDO
+ * OOP Method - [PDO](http://markonphp.com/simple-select-mysqli-php/)
 
 ### Prepared Statements ###
-  * [Prepared statements](http://markonphp.com/mysqli-select-prepared-statements/) for MySQLi
+  * [MySQLi](http://markonphp.com/mysqli-select-prepared-statements/) prepared statements
   * [PDO](http://markonphp.com/insert-pdo-prepared-statement/) prepared statements
 
 -----

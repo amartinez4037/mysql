@@ -1,14 +1,14 @@
-# mysql
+# MySQL
 
-## Using mysqli vs PDO ##
+## MySQLi vs PDO ##
+ * Procedural Method - [MySQLi](http://markonphp.com/simple-select-mysqli-php/)
+ * OOP Method - PDO
 
-### [PDO](http://markonphp.com/insert-pdo-prepared-statement/) prepared statements ###
+### Prepared Statements ###
+  * [Prepared statements](http://markonphp.com/mysqli-select-prepared-statements/) for MySQLi
+  * [PDO](http://markonphp.com/insert-pdo-prepared-statement/) prepared statements
 
 -----
-
-### [MySQLi](http://markonphp.com/simple-select-mysqli-php/) ###
-  * Procedural Method
-  * OOP Method
 
 ## phpMyAdmin ##
  * Set variables to be used on apache restart

@@ -4,8 +4,12 @@
  * Making backups of databases using mysqldump
 ```bash
 # -p => password
+# Back everything up
 mysqldump -u [uname] -p --all-databases > all_db_backup.sql
+# Database backups
 mysqldump -u [uname] -p db_name > db_backup.sql 
+# Table backups
+mysqldump -u [uname] -p db_name table1 table2 > table_backup.sql
 ```
 
 -----

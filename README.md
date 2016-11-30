@@ -1,5 +1,15 @@
 # MySQL
 
+## MySQL dump ##
+ * Making backups of databases using mysqldump
+```bash
+# -p => password
+mysqldump -u [uname] -p --all-databases > all_db_backup.sql
+mysqldump -u [uname] -p db_name > db_backup.sql 
+```
+
+-----
+
 ## MySQLi vs PDO ##
  * Procedural Method - [MySQLi](http://markonphp.com/simple-select-mysqli-php/)
  * OOP Method - [PDO](http://markonphp.com/simple-select-mysqli-php/)

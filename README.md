@@ -23,6 +23,13 @@ mysqldump -u [uname] -p db_name table1 table2 > table_backup.sql
   * [PDO](http://markonphp.com/insert-pdo-prepared-statement/) prepared statements
 
 -----
+### [htmlspecialchars() vs htmlentities()](http://stackoverflow.com/questions/46483/htmlentities-vs-htmlspecialchars) ###
+ * htmlspecialchars() converts characters that have special meaning in HTML 
+  * such as &"'<> into &xx;
+  * single quotes(') into &#039; when ENT_QUOTES is set
+ * htmlentities() will convert "all" characters that have entity equivalents into their entities
+  * If no need for converting every charcter use htmlspecialchars() instead
+-----
 
 ## phpMyAdmin ##
  * Set variables to be used on apache restart
